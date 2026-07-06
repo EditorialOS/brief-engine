@@ -1,1 +1,25 @@
-IyBDb250cmlidXRpbmcgdG8gQnJpZWYgRW5naW5lCgpUaGFua3MgZm9yIHlvdXIgaW50ZXJlc3QhIFRoaXMgcHJvamVjdCBpcyBpbnRlbnRpb25hbGx5IHNtYWxsLCBhdWRpdGFibGUsIGFuZCBkZXBlbmRlbmN5LWxpZ2h0LgoKIyMgR3JvdW5kIHJ1bGVzCgotICoqVGhlIGRlc2lnbiBzeXN0ZW0gaXMgdGhlIHNvdXJjZSBvZiB0cnV0aC4qKiBCZWhhdmlvcmFsIGNoYW5nZXMgdG8gb3V0cHV0IHNob3VsZCBzdGFydCBpbiBbYGRvY3MvZGVzaWduLXN5c3RlbS5tZGBdKGRvY3MvZGVzaWduLXN5c3RlbS5tZCkgYW5kIFtgYWktc2tpbGxzL2BdKGFpLXNraWxscy8pLCBub3QgYnVyaWVkIGluIGNvZGUuCi0gKipObyBzZWNyZXRzIGluIGNvbW1pdHMuKiogQVBJIGtleXMgbGl2ZSBpbiBsb2NhbCBicm93c2VyIHN0b3JhZ2Ugb25seS4gU2VlIFsuZ2l0aWdub3JlXSguZ2l0aWdub3JlKS4KLSAqKktlZXAgaXQgY2xpZW50LXNpZGUuKiogTm8gYmFja2VuZCwgbm8gYW5hbHl0aWNzLCBubyB0cmFja2luZy4KCiMjIERldiBzZXR1cAoKMS4gRm9yayBhbmQgY2xvbmUuCjIuIExvYWQgYGV4dGVuc2lvbi9gIGFzIGFuIHVucGFja2VkIGV4dGVuc2lvbiAoYGNocm9tZTovL2V4dGVuc2lvbnNgIOKGkiBEZXZlbG9wZXIgbW9kZSDihpIgTG9hZCB1bnBhY2tlZCkuCjMuIE1ha2UgY2hhbmdlczsgcmVsb2FkIHRoZSBleHRlbnNpb24gdG8gdGVzdC4KCiMjIFB1bGwgcmVxdWVzdHMKCi0gS2VlcCBQUnMgZm9jdXNlZCBhbmQgZGVzY3JpYmUgdGhlIHVzZXItZmFjaW5nIGNoYW5nZS4KLSBJZiB5b3UgY2hhbmdlIG91dHB1dCBiZWhhdmlvciwgdXBkYXRlIHRoZSByZWxldmFudCBgYWktc2tpbGxzL2AgZmlsZSBhbmQgYGRvY3MvZGVzaWduLXN5c3RlbS5tZGAuCi0gQ0kgdmFsaWRhdGVzIHRoZSBtYW5pZmVzdCwgY2hlY2tzIEpTIHN5bnRheCwgYW5kIGNvbmZpcm1zIHJlcXVpcmVkIGRvY3MgZXhpc3QuCgojIyBSZXBvcnRpbmcgaXNzdWVzCgpPcGVuIGFuIGlzc3VlIHdpdGggc3RlcHMgdG8gcmVwcm9kdWNlLCB3aGF0IHlvdSBleHBlY3RlZCwgYW5kIHdoYXQgaGFwcGVuZWQuCg==
+# Contributing to Brief Engine
+
+Thanks for your interest! This project is intentionally small, auditable, and dependency-light.
+
+## Ground rules
+
+- **The design system is the source of truth.** Behavioral changes to output should start in [`docs/design-system.md`](docs/design-system.md) and [`ai-skills/`](ai-skills/), not buried in code.
+- **No secrets in commits.** API keys live in local browser storage only. See [.gitignore](.gitignore).
+- **Keep it client-side.** No backend, no analytics, no tracking.
+
+## Dev setup
+
+1. Fork and clone.
+2. Load `extension/` as an unpacked extension (`chrome://extensions` → Developer mode → Load unpacked).
+3. Make changes; reload the extension to test.
+
+## Pull requests
+
+- Keep PRs focused and describe the user-facing change.
+- If you change output behavior, update the relevant `ai-skills/` file and `docs/design-system.md`.
+- CI validates the manifest, checks JS syntax, and confirms required docs exist.
+
+## Reporting issues
+
+Open an issue with steps to reproduce, what you expected, and what happened.
