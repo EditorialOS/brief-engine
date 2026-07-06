@@ -1,1 +1,68 @@
-IyBCcmllZiBFbmdpbmUg4oCUIEVkaXRvcmlhbCBPUwoKPiBTdHJ1Y3R1cmVkIGJyaWVmcyB0aGF0IHBvd2VyIGV2ZXJ5IGRvd25zdHJlYW0gd29ya2Zsb3cuCgpBIENocm9tZSBleHRlbnNpb24gdGhhdCB0dXJucyBicmllZi13cml0aW5nIGludG8gYSBzdHJ1Y3R1cmVkLCByZXBlYXRhYmxlIGlucHV0IGxheWVyLiBGaWxsIGluIGEgY29yZSBicmllZiwgdG9nZ2xlIG9uIHRoZSBtb2R1bGVzIHlvdSBuZWVkLCBhbmQgZXhwb3J0IGEgcG9ydGFibGUgSlNPTiBicmllZiB0aGF0IGFueSB0b29sLCB0ZWFtbWF0ZSwgb3IgQUkgd29ya2Zsb3cgY2FuIGNvbnN1bWUuCgoqKkZ1bGx5IGNsaWVudC1zaWRlLioqIE5vIEFQSSBjYWxscywgbm8gbmV0d29yayByZXF1ZXN0cywgbm8gYWNjb3VudHMsIG5vIGRhdGEgY29sbGVjdGlvbi4gWW91ciBkcmFmdCBhdXRvc2F2ZXMgdG8gbG9jYWwgYnJvd3NlciBzdG9yYWdlIG9uIHlvdXIgZGV2aWNlIGFuZCBub3doZXJlIGVsc2UuCgojIyBXaHkKCk1vc3QgYnJpZWZzIGFyZSBwcm9zZSBkb2N1bWVudHMgdGhhdCBldmVyeSBkb3duc3RyZWFtIHRvb2wgaGFzIHRvIHJlLWludGVycHJldC4gQnJpZWYgRW5naW5lIHRyZWF0cyB0aGUgYnJpZWYgYXMgc3RydWN0dXJlZCBkYXRhIGZyb20gdGhlIHN0YXJ0OiBvbmUgY2Fub25pY2FsIHNjaGVtYSwgcmVhZGFibGUgYnkgaHVtYW5zIGluIHRoZSBCcmllZiB0YWIsIGNvbnN1bWFibGUgYnkgbWFjaGluZXMgYXMgSlNPTi4gV3JpdGUgaXQgb25jZTsgZXZlcnl0aGluZyBkb3duc3RyZWFtIGluaGVyaXRzIGl0LgoKIyMgRmVhdHVyZXMKCi0gKipDb3JlIGJyaWVmIHNjaGVtYSoqIOKAlCBwcm9qZWN0LCBvYmplY3RpdmVzLCBLUEksIGF1ZGllbmNlIGFuZCBhd2FyZW5lc3MgbGV2ZWwsIHRoZSBzaW5nbGUga2V5IG1lc3NhZ2UsIHByb29mIHBvaW50cywgYW5kIGNvbnN0cmFpbnRzICh0aW1lbGluZSwgY2hhbm5lbHMsIHRvbmUsIG11c3QtaW5jbHVkZSAvIG11c3QtYXZvaWQpCi0gKipNb2R1bGFyIGRlcHRoKiog4oCUIHRvZ2dsZSBvbiB0aGUgTWFya2V0aW5nIG1vZHVsZSBmb3IgcGxhbm5pbmcgY29udGV4dCwgYXVkaWVuY2UgZGVwdGggKGpvYnMtdG8tYmUtZG9uZSwgcGFpbiBwb2ludHMsIG9iamVjdGlvbnMsIG1vdGl2YXRvcnMpLCBjaGFubmVsIHN0cmF0ZWd5LCBhbmQgYnJhbmQvbWFya2V0IHBvc2l0aW9uaW5nLiBUaGUgbW9kdWxlIHJlZ2lzdHJ5IGlzIGRlc2lnbmVkIGZvciBhZGRpdGlvbmFsIHRyYWNrcyB0byBwbHVnIGluLgotICoqVHdvIG91dHB1dCB2aWV3cyoqIOKAlCBhIHJlYWRhYmxlIGJyaWVmIGFuZCBjbGVhbiBKU09OLCBzaWRlIGJ5IHNpZGUgYXMgeW91IHR5cGUKLSAqKlBvcnRhYmxlIG91dHB1dCoqIOKAlCBjb3B5IHRoZSBicmllZiBhcyB0ZXh0LCBjb3B5IHRoZSBKU09OLCBvciBkb3dubG9hZCBhIHRpbWVzdGFtcGVkIGAuanNvbmAgZmlsZQotICoqRHJhZnQgYXV0b3NhdmUqKiDigJQgdGhlIHBvcHVwIGNhbiBjbG9zZSBhbmQgcmVvcGVuIHdpdGhvdXQgbG9zaW5nIHdvcms7ICJOZXcgYnJpZWYiIGNsZWFycyBpdAoKIyMgSW5zdGFsbGF0aW9uCgoqKkZyb20gdGhlIENocm9tZSBXZWIgU3RvcmU6KiogKGxpbmsgb25jZSBwdWJsaXNoZWQpCgoqKkRldmVsb3BlciBtb2RlOioqCjEuIERvd25sb2FkIG9yIGNsb25lIHRoaXMgZm9sZGVyCjIuIE9wZW4gYGNocm9tZTovL2V4dGVuc2lvbnMvYAozLiBFbmFibGUgRGV2ZWxvcGVyIG1vZGUgKHRvcCByaWdodCkKNC4gQ2xpY2sgIkxvYWQgdW5wYWNrZWQiIGFuZCBzZWxlY3QgdGhpcyBmb2xkZXIKCiMjIEFyY2hpdGVjdHVyZSBub3RlcwoKU2luZ2xlLWZpbGUgdmFuaWxsYSBKUywgbm8gZnJhbWV3b3JrLCBubyBidWlsZCBzdGVwLiBBbGwgVUkgaXMgcmVuZGVyZWQgZnJvbSBvbmUgc3RhdGUgb2JqZWN0OyBldmVyeSBmaWVsZCBiaW5kcyB0aHJvdWdoIGEgYGRhdGEtcGF0aGAgYXR0cmlidXRlIHRvIGEgbmVzdGVkIHNjaGVtYSBwYXRoLCBzbyBhZGRpbmcgYSBmaWVsZCBpcyBvbmUgbGluZSBvZiBzY2hlbWEgcGx1cyBvbmUgcmVuZGVyZXIgY2FsbC4gTW9kdWxlcyByZWdpc3RlciBpbiBgTU9EVUxFU2AgYW5kIGBNT0RVTEVfUkVOREVSRVJTYCDigJQgYSBuZXcgdHJhY2sgKGVkaXRvcmlhbCwgZGVzaWduLCBwcm9kdWN0KSBpcyBhIHNjaGVtYSBrZXksIGEgcmVnaXN0cnkgZW50cnksIGFuZCBhIHJlbmRlcmVyLiBNVjMgQ1NQLWNvbXBsaWFudDogbm8gaW5saW5lIGhhbmRsZXJzIGFueXdoZXJlLgoKIyMgUHJpdmFjeQoKTm8gZGF0YSBsZWF2ZXMgeW91ciBkZXZpY2UuIFNlZSBbUFJJVkFDWS5tZF0oLi4vUFJJVkFDWS5tZCkuCgotLS0KCiMjIENocm9tZSBXZWIgU3RvcmUgbGlzdGluZyBjb3B5CgoqKk5hbWU6KiogQnJpZWYgRW5naW5lIC0gRWRpdG9yaWFsIE9TCgoqKlNob3J0IGRlc2NyaXB0aW9uICjiiaQxMzIgY2hhcnMpOioqCkJ1aWxkIHN0cnVjdHVyZWQgY2FtcGFpZ24gYnJpZWZzIOKAlCByZWFkYWJsZSBhbmQgYXMgY2xlYW4gSlNPTi4gUnVucyBlbnRpcmVseSBvbiB5b3VyIGRldmljZS4gTm8gYWNjb3VudHMsIG5vIGRhdGEgY29sbGVjdGlvbi4KCioqRGV0YWlsZWQgZGVzY3JpcHRpb246KioKCkJyaWVmIEVuZ2luZSB0dXJucyBicmllZi13cml0aW5nIGludG8gYSBzdHJ1Y3R1cmVkLCByZXBlYXRhYmxlIHByb2Nlc3MuCgpGaWxsIGluIG9uZSBjYW5vbmljYWwgYnJpZWYg4oCUIG9iamVjdGl2ZXMsIGF1ZGllbmNlLCBrZXkgbWVzc2FnZSwgcHJvb2YgcG9pbnRzLCBjb25zdHJhaW50cyDigJQgYW5kIHRvZ2dsZSBvbiBkZWVwZXIgbW9kdWxlcyB3aGVuIHRoZSB3b3JrIGNhbGxzIGZvciB0aGVtLiBUaGUgTWFya2V0aW5nIG1vZHVsZSBhZGRzIGZ1bm5lbCBzdGFnZSwgam9icy10by1iZS1kb25lLCBvYmplY3Rpb25zLCBjaGFubmVsIHN0cmF0ZWd5LCBhbmQgcG9zaXRpb25pbmcuCgpBcyB5b3UgdHlwZSwgQnJpZWYgRW5naW5lIHJlbmRlcnMgdHdvIGxpdmUgdmlld3M6IGEgcmVhZGFibGUgYnJpZWYgZm9yIGh1bWFucyBhbmQgY2xlYW4gSlNPTiBmb3IgbWFjaGluZXMuIENvcHkgZWl0aGVyLCBvciBkb3dubG9hZCB0aGUgSlNPTiB0byBoYW5kIHRvIGFueSB0b29sLCB0ZWFtbWF0ZSwgb3IgQUkgd29ya2Zsb3cuCgpXSFkgU1RSVUNUVVJFRCBCUklFRlMK4oCiIE9uZSBzb3VyY2Ugb2YgdHJ1dGggZXZlcnkgZG93bnN0cmVhbSBhc3NldCBpbmhlcml0cwrigKIgTm8gcmUtaW50ZXJwcmV0aW5nIHByb3NlIOKAlCB0aGUgc2NoZW1hIGlzIHRoZSBjb250cmFjdArigKIgUG9ydGFibGU6IEpTT04gd29ya3MgZXZlcnl3aGVyZSB5b3VyIHdvcmsgZG9lcwoKUFJJVkFDWQrigKIgMTAwJSBjbGllbnQtc2lkZSDigJQgbm8gbmV0d29yayByZXF1ZXN0cywgZXZlcgrigKIgTm8gYWNjb3VudHMsIG5vIGFuYWx5dGljcywgbm8gZGF0YSBjb2xsZWN0aW9uCuKAoiBEcmFmdHMgYXV0b3NhdmUgdG8gbG9jYWwgc3RvcmFnZSBvbiB5b3VyIGRldmljZSBvbmx5CgpQYXJ0IG9mIEVkaXRvcmlhbCBPUzogc3lzdGVtcyBmb3IgY29udGVudCBhbmQgY29tbXVuaWNhdGlvbnMgdGVhbXMuCgoqKkNhdGVnb3J5OioqIFByb2R1Y3Rpdml0eQo=
+# Brief Engine — Editorial OS
+
+> Structured briefs that power every downstream workflow.
+
+A Chrome extension that turns brief-writing into a structured, repeatable input layer. Fill in a core brief, toggle on the modules you need, and export a portable JSON brief that any tool, teammate, or AI workflow can consume.
+
+**Fully client-side.** No API calls, no network requests, no accounts, no data collection. Your draft autosaves to local browser storage on your device and nowhere else.
+
+## Why
+
+Most briefs are prose documents that every downstream tool has to re-interpret. Brief Engine treats the brief as structured data from the start: one canonical schema, readable by humans in the Brief tab, consumable by machines as JSON. Write it once; everything downstream inherits it.
+
+## Features
+
+- **Core brief schema** — project, objectives, KPI, audience and awareness level, the single key message, proof points, and constraints (timeline, channels, tone, must-include / must-avoid)
+- **Modular depth** — toggle on the Marketing module for planning context, audience depth (jobs-to-be-done, pain points, objections, motivators), channel strategy, and brand/market positioning. The module registry is designed for additional tracks to plug in.
+- **Two output views** — a readable brief and clean JSON, side by side as you type
+- **Portable output** — copy the brief as text, copy the JSON, or download a timestamped `.json` file
+- **Draft autosave** — the popup can close and reopen without losing work; "New brief" clears it
+
+## Installation
+
+**From the Chrome Web Store:** (link once published)
+
+**Developer mode:**
+1. Download or clone this folder
+2. Open `chrome://extensions/`
+3. Enable Developer mode (top right)
+4. Click "Load unpacked" and select this folder
+
+## Architecture notes
+
+Single-file vanilla JS, no framework, no build step. All UI is rendered from one state object; every field binds through a `data-path` attribute to a nested schema path, so adding a field is one line of schema plus one renderer call. Modules register in `MODULES` and `MODULE_RENDERERS` — a new track (editorial, design, product) is a schema key, a registry entry, and a renderer. MV3 CSP-compliant: no inline handlers anywhere.
+
+## Privacy
+
+No data leaves your device. See [PRIVACY.md](../PRIVACY.md).
+
+---
+
+## Chrome Web Store listing copy
+
+**Name:** Brief Engine - Editorial OS
+
+**Short description (≤132 chars):**
+Build structured campaign briefs — readable and as clean JSON. Runs entirely on your device. No accounts, no data collection.
+
+**Detailed description:**
+
+Brief Engine turns brief-writing into a structured, repeatable process.
+
+Fill in one canonical brief — objectives, audience, key message, proof points, constraints — and toggle on deeper modules when the work calls for them. The Marketing module adds funnel stage, jobs-to-be-done, objections, channel strategy, and positioning.
+
+As you type, Brief Engine renders two live views: a readable brief for humans and clean JSON for machines. Copy either, or download the JSON to hand to any tool, teammate, or AI workflow.
+
+WHY STRUCTURED BRIEFS
+• One source of truth every downstream asset inherits
+• No re-interpreting prose — the schema is the contract
+• Portable: JSON works everywhere your work does
+
+PRIVACY
+• 100% client-side — no network requests, ever
+• No accounts, no analytics, no data collection
+• Drafts autosave to local storage on your device only
+
+Part of Editorial OS: systems for content and communications teams.
+
+**Category:** Productivity
