@@ -1,1 +1,19 @@
-IyBQcml2YWN5CgpCcmllZiBFbmdpbmUgaXMgYnVpbHQgcHJpdmFjeS1maXJzdC4gVGhlcmUgaXMgbm8gInVzIiB0byBzZW5kIHlvdXIgZGF0YSB0by4KCiMjIFdoYXQgd2UgY29sbGVjdAoKKipOb3RoaW5nLioqIEJyaWVmIEVuZ2luZSBoYXMgbm8gYmFja2VuZCBzZXJ2ZXIsIG5vIGFjY291bnRzLCBubyBhbmFseXRpY3MsIGFuZCBubyB0ZWxlbWV0cnkuCgojIyBXaGVyZSB5b3VyIGRhdGEgZ29lcwoKLSBZb3VyIGlucHV0cywgYnJhbmQgc2V0dGluZ3MsIGFuZCBBUEkga2V5IGFyZSBzdG9yZWQgKipsb2NhbGx5IGluIHlvdXIgYnJvd3NlcioqIChDaHJvbWUgc3RvcmFnZSkuCi0gV2hlbiB5b3UgZ2VuZXJhdGUgb3V0cHV0LCB5b3VyIGlucHV0IGFuZCBicmFuZCBydWxlcyBhcmUgc2VudCAqKmRpcmVjdGx5IGZyb20geW91ciBicm93c2VyIHRvIHRoZSBBbnRocm9waWMgQVBJKiogKGBhcGkuYW50aHJvcGljLmNvbWApIHVzaW5nICp5b3VyKiBBUEkga2V5LiBUaGV5IGFyZSBuZXZlciByb3V0ZWQgdGhyb3VnaCBhbnkgc2VydmVyIHdlIGNvbnRyb2wsIGJlY2F1c2Ugbm9uZSBleGlzdHMuCi0gWW91ciBBUEkga2V5IG5ldmVyIGxlYXZlcyB5b3VyIGRldmljZSBleGNlcHQgaW4gdGhlIGF1dGhlbnRpY2F0ZWQgcmVxdWVzdCB0byBBbnRocm9waWMuCgojIyBXaGF0IHlvdSBzaG91bGQga25vdwoKLSBSZXZpZXcgW0FudGhyb3BpYydzIHByaXZhY3kgcG9saWN5XShodHRwczovL3d3dy5hbnRocm9waWMuY29tL2xlZ2FsL3ByaXZhY3kpIGZvciBob3cgdGhleSBoYW5kbGUgQVBJIHJlcXVlc3RzLgotIFVuaW5zdGFsbGluZyB0aGUgZXh0ZW5zaW9uIHJlbW92ZXMgYWxsIGxvY2FsbHkgc3RvcmVkIGRhdGEuCi0gVGhpcyBwcm9qZWN0IGlzIG9wZW4gc291cmNlIOKAlCB5b3UgY2FuIGF1ZGl0IGV4YWN0bHkgd2hhdCBpdCBkb2VzIGluIFtgZXh0ZW5zaW9uL2BdKGV4dGVuc2lvbi8pLgo=
+# Privacy
+
+Brief Engine is built privacy-first. There is no "us" to send your data to.
+
+## What we collect
+
+**Nothing.** Brief Engine has no backend server, no accounts, no analytics, and no telemetry.
+
+## Where your data goes
+
+- Your inputs, brand settings, and API key are stored **locally in your browser** (Chrome storage).
+- When you generate output, your input and brand rules are sent **directly from your browser to the Anthropic API** (`api.anthropic.com`) using *your* API key. They are never routed through any server we control, because none exists.
+- Your API key never leaves your device except in the authenticated request to Anthropic.
+
+## What you should know
+
+- Review [Anthropic's privacy policy](https://www.anthropic.com/legal/privacy) for how they handle API requests.
+- Uninstalling the extension removes all locally stored data.
+- This project is open source — you can audit exactly what it does in [`extension/`](extension/).
