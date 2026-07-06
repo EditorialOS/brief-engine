@@ -1,1 +1,61 @@
-IyBEZXNpZ24gU3lzdGVtIOKAlCBCcmllZiBFbmdpbmUKCj4gVGhpcyBkb2N1bWVudCBpcyB0aGUgKipzaW5nbGUgc291cmNlIG9mIHRydXRoKiogZm9yIGhvdyBCcmllZiBFbmdpbmUgcHJvZHVjZXMgb24tYnJhbmQgb3V0cHV0LiBJdCBpcyBpbnRlbnRpb25hbGx5IHdyaXR0ZW4gaW4gbWFya2Rvd24gc28gaXQgY2FuIGJlIHZlcnNpb25lZCwgcmV2aWV3ZWQsIGFuZCByZXVzZWQgdGhlIHdheSBhIGRlc2lnbiB0ZWFtIHJldmlld3MgY29tcG9uZW50cy4gVGhlIEFJIHNraWxsIGluIFtgLi4vYWktc2tpbGxzL2JyaWVmLXN0cnVjdHVyaW5nLXNraWxsLm1kYF0oLi4vYWktc2tpbGxzL2JyaWVmLXN0cnVjdHVyaW5nLXNraWxsLm1kKSBjb25zdW1lcyB0aGVzZSBydWxlcyBkaXJlY3RseS4KCiMjIDEuIEJyYW5kIHZvaWNlCgpWb2ljZSBpcyB0aGUgY29uc3RhbnQ7IGV2ZXJ5dGhpbmcgZWxzZSBhZGFwdHMgYXJvdW5kIGl0LgoKLSAqKlBlcnNvbmFsaXR5OioqIGNsZWFyLCBjb25maWRlbnQsIGh1bWFuLiBOZXZlciBjb3Jwb3JhdGUtc3RpZmYsIG5ldmVyIGdpbW1pY2t5LgotICoqUG9pbnQgb2YgdmlldzoqKiBzcGVhayAqdG8qIHRoZSByZWFkZXIsIG5vdCAqYXQqIHRoZW0uIFNlY29uZCBwZXJzb24sIGFjdGl2ZSB2b2ljZS4KLSAqKldoYXQgd2Ugc291bmQgbGlrZToqKiBkaXJlY3QsIHdhcm0sIHNwZWNpZmljLgotICoqV2hhdCB3ZSBuZXZlciBzb3VuZCBsaWtlOioqIGh5cGUteSwgamFyZ29uLWhlYXZ5LCBoZWRnaW5nLCBvciBmaWxsZXItcGFkZGVkLgoKIyMgMi4gVG9uZSBydWxlcwoKVG9uZSBmbGV4ZXMgYnkgY29udGV4dCwgd2l0aGluIGd1YXJkcmFpbHM6CgotIE1hdGNoIHRoZSByZWFkZXIncyBlbW90aW9uYWwgc3RhdGU7IG5ldmVyIG92ZXJjbGFpbS4KLSBPbmUgaWRlYSBwZXIgc2VudGVuY2U7IGN1dCBxdWFsaWZpZXJzICgianVzdCwiICJ2ZXJ5LCIgInJlYWxseSIpLgotIFByZWZlciBjb25jcmV0ZSBub3VucyBhbmQgdmVyYnMgb3ZlciBhYnN0cmFjdGlvbnMuCi0gUmVhZCBpdCBhbG91ZCDigJQgaWYgaXQgc291bmRzIGxpa2UgYSBwcmVzcyByZWxlYXNlLCByZXdyaXRlIGl0LgoKIyMgMy4gVm9jYWJ1bGFyeQoKLSAqKlVzZToqKiB0aGUgcHJvZHVjdCdzIHJlYWwgbmFtZXMgYW5kIHRoZSBhdWRpZW5jZSdzIG93biB3b3Jkcy4KLSAqKkF2b2lkOioqIGludGVybmFsIGphcmdvbiwgYWNyb255bXMgd2l0aG91dCBleHBhbnNpb24sIGJhbm5lZCB3b3JkcyBjb25maWd1cmVkIGJ5IHRoZSBicmFuZCBvd25lci4KLSAqKkxvY2tlZCB0ZXJtczoqKiBwcm9kdWN0IG5hbWVzLCBsZWdhbCBsYW5ndWFnZSwgYW5kIGNsYWltcyBhcmUgdmVyYmF0aW0gYW5kIG5ldmVyIHBhcmFwaHJhc2VkLgoKIyMgNC4gVHlwZSwgY29sb3IgJiBsYXlvdXQgcHJpbmNpcGxlcwoKQWx0aG91Z2ggQnJpZWYgRW5naW5lIG91dHB1dHMgcHJpbWFyaWx5IHRleHQsIGl0cyBVSSBhbmQgYW55IHJlbmRlcmVkIG91dHB1dCBmb2xsb3cgdGhlIHNhbWUgZGVzaWduIGRpc2NpcGxpbmU6CgotICoqVHlwZToqKiBhIGNsZWFyIGhpZXJhcmNoeSDigJQgb25lIGhlYWRpbmcgbGV2ZWwgcGVyIGxldmVsIG9mIG1lYW5pbmc7IGdlbmVyb3VzIGxpbmUgbGVuZ3RoIGxpbWl0cyBmb3IgcmVhZGFiaWxpdHkuCi0gKipDb2xvcjoqKiBmdW5jdGlvbmFsIGZpcnN0IChzdGF0ZSwgZW1waGFzaXMpLCBicmFuZCBzZWNvbmQ7IHN1ZmZpY2llbnQgY29udHJhc3QgKFdDQUcgQUEpLgotICoqTGF5b3V0OioqIHdoaXRlc3BhY2UgaXMgYSBmZWF0dXJlOyBncm91cCByZWxhdGVkIGZpZWxkczsgb25lIHByaW1hcnkgYWN0aW9uIHBlciB2aWV3LgotICoqUmh5dGhtOioqIGNvbnNpc3RlbnQgc3BhY2luZyBzY2FsZTsgbm90aGluZyBhcmJpdHJhcnkuCgojIyA1LiBBZGFwdGF0aW9uIHJ1bGVzICh3aGF0IG1heSBmbGV4KQoKVGhlIGJyaWVmIHNjaGVtYSBpcyBtb2R1bGFyIHNvIHRlYW1zIGNhbiBleHRlbmQgaXQgd2l0aG91dCBicmVha2luZyBkb3duc3RyZWFtIGNvbnN1bWVyczoKCnwgU2VjdGlvbiB8IFJlcXVpcmVkIHwgUHVycG9zZSB8CnwtLS18LS0tfC0tLXwKfCBPYmplY3RpdmUgfCB5ZXMgfCBUaGUgc2luZ2xlIG91dGNvbWUgdGhpcyB3b3JrIG11c3QgYWNoaWV2ZSB8CnwgQXVkaWVuY2UgfCB5ZXMgfCBXaG8gaXQncyBmb3IsIGluIHRoZSB0ZWFtJ3MgcGVyc29uYSB2b2NhYnVsYXJ5IHwKfCBEZWxpdmVyYWJsZXMgfCB5ZXMgfCBDb25jcmV0ZSBhcnRpZmFjdHMgKyBzcGVjcyB8CnwgVG9uZSAmIHZvaWNlIHwgeWVzIHwgTGlua3MgdG8gdGhlIGJyYW5kIHZvaWNlIGRlZmluaXRpb24gfAp8IFN1Y2Nlc3MgbWV0cmljcyB8IHllcyB8IEhvdyAiZG9uZSB3ZWxsIiBpcyBtZWFzdXJlZCB8CnwgQ29uc3RyYWludHMgfCBubyB8IEJ1ZGdldCwgbGVnYWwsIHRlY2huaWNhbCwgdGltZWxpbmUgfAp8IFJlZmVyZW5jZXMgfCBubyB8IEluc3BpcmF0aW9uLCBwcmlvciB3b3JrLCBsaW5rcyB8CgojIyA2LiBHdWFyZHJhaWxzICh3aGF0IG11c3QgbmV2ZXIgYnJlYWspCgotIE5ldmVyIGFsdGVyIGxvY2tlZCBzZWN0aW9ucy90ZXJtcy4KLSBOZXZlciBpbnZlbnQgZmFjdHMsIGNsYWltcywgcHJpY2VzLCBvciBmZWF0dXJlcy4KLSBOZXZlciBicmVhayBwbGF0Zm9ybS9mb3JtYXQgaGFyZCBsaW1pdHMuCi0gTmV2ZXIgZHJpZnQgZnJvbSB0aGUgYnJhbmQgdm9pY2UgZGVmaW5lZCBpbiDCpzHigJPCpzMsIHJlZ2FyZGxlc3Mgb2YgYXVkaWVuY2UuCgojIyA3LiBIb3cgdGhpcyBiZWNvbWVzIGJlaGF2aW9yCgpUaGVzZSBydWxlcyBhcmUgbm90IGRvY3VtZW50YXRpb24gKmFib3V0KiB0aGUgcHJvZHVjdCDigJQgdGhleSBhcmUgdGhlIHByb2R1Y3QncyAqKmluc3RydWN0aW9ucyoqLiBUaGUgQUkgc2tpbGwgY29tcG9zZXMgdGhlbSB3aXRoIHVzZXIgaW5wdXQgYXQgcnVudGltZSwgc28gZWRpdGluZyB0aGlzIGZpbGUgY2hhbmdlcyB0aGUgb3V0cHV0LiBUaGF0IGlzIHRoZSBjb3JlIGlkZWE6ICoqbWFya2Rvd24tYmFzZWQgYnJhbmQgZG9jdW1lbnRhdGlvbiBhcyBleGVjdXRhYmxlIHNvdXJjZSBvZiB0cnV0aC4qKgo=
+# Design System — Brief Engine
+
+> This document is the **single source of truth** for how Brief Engine produces on-brand output. It is intentionally written in markdown so it can be versioned, reviewed, and reused the way a design team reviews components. The AI skill in [`../ai-skills/brief-structuring-skill.md`](../ai-skills/brief-structuring-skill.md) consumes these rules directly.
+
+## 1. Brand voice
+
+Voice is the constant; everything else adapts around it.
+
+- **Personality:** clear, confident, human. Never corporate-stiff, never gimmicky.
+- **Point of view:** speak *to* the reader, not *at* them. Second person, active voice.
+- **What we sound like:** direct, warm, specific.
+- **What we never sound like:** hype-y, jargon-heavy, hedging, or filler-padded.
+
+## 2. Tone rules
+
+Tone flexes by context, within guardrails:
+
+- Match the reader's emotional state; never overclaim.
+- One idea per sentence; cut qualifiers ("just," "very," "really").
+- Prefer concrete nouns and verbs over abstractions.
+- Read it aloud — if it sounds like a press release, rewrite it.
+
+## 3. Vocabulary
+
+- **Use:** the product's real names and the audience's own words.
+- **Avoid:** internal jargon, acronyms without expansion, banned words configured by the brand owner.
+- **Locked terms:** product names, legal language, and claims are verbatim and never paraphrased.
+
+## 4. Type, color & layout principles
+
+Although Brief Engine outputs primarily text, its UI and any rendered output follow the same design discipline:
+
+- **Type:** a clear hierarchy — one heading level per level of meaning; generous line length limits for readability.
+- **Color:** functional first (state, emphasis), brand second; sufficient contrast (WCAG AA).
+- **Layout:** whitespace is a feature; group related fields; one primary action per view.
+- **Rhythm:** consistent spacing scale; nothing arbitrary.
+
+## 5. Adaptation rules (what may flex)
+
+The brief schema is modular so teams can extend it without breaking downstream consumers:
+
+| Section | Required | Purpose |
+|---|---|---|
+| Objective | yes | The single outcome this work must achieve |
+| Audience | yes | Who it's for, in the team's persona vocabulary |
+| Deliverables | yes | Concrete artifacts + specs |
+| Tone & voice | yes | Links to the brand voice definition |
+| Success metrics | yes | How "done well" is measured |
+| Constraints | no | Budget, legal, technical, timeline |
+| References | no | Inspiration, prior work, links |
+
+## 6. Guardrails (what must never break)
+
+- Never alter locked sections/terms.
+- Never invent facts, claims, prices, or features.
+- Never break platform/format hard limits.
+- Never drift from the brand voice defined in §1–§3, regardless of audience.
+
+## 7. How this becomes behavior
+
+These rules are not documentation *about* the product — they are the product's **instructions**. The AI skill composes them with user input at runtime, so editing this file changes the output. That is the core idea: **markdown-based brand documentation as executable source of truth.**
