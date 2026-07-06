@@ -1,1 +1,43 @@
-bmFtZTogQ0kKCm9uOgogIHB1c2g6CiAgICBicmFuY2hlczogWyBtYWluIF0KICBwdWxsX3JlcXVlc3Q6CiAgICBicmFuY2hlczogWyBtYWluIF0KCmpvYnM6CiAgdmFsaWRhdGU6CiAgICBuYW1lOiBWYWxpZGF0ZSBleHRlbnNpb24KICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogVmFsaWRhdGUgbWFuaWZlc3QuanNvbiBpcyB3ZWxsLWZvcm1lZAogICAgICAgIHJ1bjogfAogICAgICAgICAgZm9yIGYgaW4gJChmaW5kIGV4dGVuc2lvbiAtbmFtZSBtYW5pZmVzdC5qc29uKTsgZG8KICAgICAgICAgICAgZWNobyAiVmFsaWRhdGluZyAkZiIKICAgICAgICAgICAgcHl0aG9uMyAtYyAiaW1wb3J0IGpzb24sc3lzOyBqc29uLmxvYWQob3BlbignJGYnKSk7IHByaW50KCcgIG9rOiB2YWxpZCBKU09OJykiCiAgICAgICAgICBkb25lCgogICAgICAtIG5hbWU6IENoZWNrIE1hbmlmZXN0IFYzCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBmb3IgZiBpbiAkKGZpbmQgZXh0ZW5zaW9uIC1uYW1lIG1hbmlmZXN0Lmpzb24pOyBkbwogICAgICAgICAgICBweXRob24zIC1jICJpbXBvcnQganNvbixzeXM7IG09anNvbi5sb2FkKG9wZW4oJyRmJykpOyBhc3NlcnQgbS5nZXQoJ21hbmlmZXN0X3ZlcnNpb24nKT09MywgJ25vdCBNVjMnOyBwcmludCgnICBvazogbWFuaWZlc3RfdmVyc2lvbiAzJykiCiAgICAgICAgICBkb25lCgogICAgICAtIG5hbWU6IExpbnQgSmF2YVNjcmlwdCAoc3ludGF4KQogICAgICAgIHJ1bjogfAogICAgICAgICAgaWYgISBjb21tYW5kIC12IG5vZGUgPi9kZXYvbnVsbDsgdGhlbiBlY2hvICJub2RlIG5vdCBmb3VuZCI7IGV4aXQgMDsgZmkKICAgICAgICAgIGZvciBmIGluICQoZmluZCBleHRlbnNpb24gLW5hbWUgJyouanMnKTsgZG8KICAgICAgICAgICAgZWNobyAiQ2hlY2tpbmcgJGYiCiAgICAgICAgICAgIG5vZGUgLS1jaGVjayAiJGYiCiAgICAgICAgICBkb25lCgogICAgICAtIG5hbWU6IFZlcmlmeSByZXF1aXJlZCBkb2NzIGV4aXN0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICB0ZXN0IC1mIFJFQURNRS5tZCAmJiBlY2hvICJSRUFETUUubWQgcHJlc2VudCIKICAgICAgICAgIHRlc3QgLWYgZG9jcy9QUkQubWQgJiYgZWNobyAiUFJEIHByZXNlbnQiCiAgICAgICAgICB0ZXN0IC1mIGRvY3MvZGVzaWduLXN5c3RlbS5tZCAmJiBlY2hvICJkZXNpZ24tc3lzdGVtIHByZXNlbnQiCiAgICAgICAgICB0ZXN0IC1kIGFpLXNraWxscyAmJiBlY2hvICJhaS1za2lsbHMgcHJlc2VudCIKCiMgTk9URTogbW92ZSB0aGlzIGZpbGUgdG8gLmdpdGh1Yi93b3JrZmxvd3MvY2kueW1sIHRvIGVuYWJsZSBDSS4K
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Validate extension
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate manifest.json is well-formed
+        run: |
+          for f in $(find extension -name manifest.json); do
+            echo "Validating $f"
+            python3 -c "import json,sys; json.load(open('$f')); print('  ok: valid JSON')"
+          done
+
+      - name: Check Manifest V3
+        run: |
+          for f in $(find extension -name manifest.json); do
+            python3 -c "import json,sys; m=json.load(open('$f')); assert m.get('manifest_version')==3, 'not MV3'; print('  ok: manifest_version 3')"
+          done
+
+      - name: Lint JavaScript (syntax)
+        run: |
+          if ! command -v node >/dev/null; then echo "node not found"; exit 0; fi
+          for f in $(find extension -name '*.js'); do
+            echo "Checking $f"
+            node --check "$f"
+          done
+
+      - name: Verify required docs exist
+        run: |
+          test -f README.md && echo "README.md present"
+          test -f docs/PRD.md && echo "PRD present"
+          test -f docs/design-system.md && echo "design-system present"
+          test -d ai-skills && echo "ai-skills present"
+
