@@ -1,1 +1,12 @@
-IyBEb2NzIOKAlCBCcmllZiBFbmdpbmUKClN0YXJ0IGhlcmUgdG8gdW5kZXJzdGFuZCB0aGUgcHJvamVjdC4KCnwgRG9jdW1lbnQgfCBXaGF0IGl0IGNvdmVycyB8CnwtLS18LS0tfAp8IFtQUkQubWRdKFBSRC5tZCkgfCBQcm9ibGVtLCB1c2VycywgZ29hbHMsIHJlcXVpcmVtZW50cywgc3VjY2VzcyAmIGFkb3B0aW9uIG1ldHJpY3MgfAp8IFtkZXNpZ24tc3lzdGVtLm1kXShkZXNpZ24tc3lzdGVtLm1kKSB8IFRoZSBicmFuZCBzeXN0ZW0gYXMgc291cmNlIG9mIHRydXRoOiB2b2ljZSwgdG9uZSwgdHlwZS9jb2xvci9sYXlvdXQsIGFuZCBjb250ZW50IHJ1bGVzIHRoZSB0b29sIGVuZm9yY2VzIHwKfCBbYXJjaGl0ZWN0dXJlLm1kXShhcmNoaXRlY3R1cmUubWQpIHwgSG93IGl0IHdvcmtzOiBmcm9udC1lbmQgc3VyZmFjZSwgQUkvbW9kZWwgbGF5ZXIsIGFuZCB0aGUgcHJvbXB0IGxheWVyIHwKfCBbY2ktd29ya2Zsb3cueW1sXShjaS13b3JrZmxvdy55bWwpIHwgQ0kgZGVmaW5pdGlvbiDigJQgbW92ZSB0byBgLmdpdGh1Yi93b3JrZmxvd3MvY2kueW1sYCB0byBlbmFibGUgfAoKU2VlIGFsc28gdGhlIEFJIHNraWxsIGl0c2VsZiBpbiBbYC4uL2FpLXNraWxscy9icmllZi1zdHJ1Y3R1cmluZy1za2lsbC5tZGBdKC4uL2FpLXNraWxscy9icmllZi1zdHJ1Y3R1cmluZy1za2lsbC5tZCkg4oCUIHRoZSBzdHJ1Y3R1cmVkIGluc3RydWN0aW9uIHNldCBhdCB0aGUgaGVhcnQgb2YgdGhlIHRvb2wuCg==
+# Docs — Brief Engine
+
+Start here to understand the project.
+
+| Document | What it covers |
+|---|---|
+| [PRD.md](PRD.md) | Problem, users, goals, requirements, success & adoption metrics |
+| [design-system.md](design-system.md) | The brand system as source of truth: voice, tone, type/color/layout, and content rules the tool enforces |
+| [architecture.md](architecture.md) | How it works: front-end surface, AI/model layer, and the prompt layer |
+| [ci-workflow.yml](ci-workflow.yml) | CI definition — move to `.github/workflows/ci.yml` to enable |
+
+See also the AI skill itself in [`../ai-skills/brief-structuring-skill.md`](../ai-skills/brief-structuring-skill.md) — the structured instruction set at the heart of the tool.
