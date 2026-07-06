@@ -1,1 +1,55 @@
-IyBQUkQg4oCUIEJyaWVmIEVuZ2luZQoKIyMgUHJvYmxlbQoKQ3JlYXRpdmUgd29yayBpcyBvbmx5IGFzIGdvb2QgYXMgdGhlIGJyaWVmIHRoYXQgc3RhcnRzIGl0LCBhbmQgbW9zdCBicmllZnMgYXJlIGEgcGFyYWdyYXBoIGluIGEgU2xhY2sgdGhyZWFkLiBGaWVsZHMgZ28gbWlzc2luZywgc3VjY2VzcyBtZXRyaWNzIGFyZSB2YWd1ZSwgdG9uZSBpcyB1bmRlZmluZWQg4oCUIHNvIGRlc2lnbmVycyBzcGVuZCB0aGUgZmlyc3QgZGF5IG9mIGV2ZXJ5IHByb2plY3QgcmV2ZXJzZS1lbmdpbmVlcmluZyB3aGF0IHdhcyBhY3R1YWxseSB3YW50ZWQuIFRoZSBjb3N0IGlzbid0IHRoZSBicmllZjsgaXQncyB0aGUgcmV3b3JrIGRvd25zdHJlYW0uCgojIyBTb2x1dGlvbgoKQnJpZWYgRW5naW5lIHR1cm5zIGJyaWVmLXdyaXRpbmcgaW50byBhIHN0cnVjdHVyZWQsIHJlcGVhdGFibGUgc3lzdGVtLiBBIG1vZHVsYXIgc2NoZW1hIChvd25lZCBieSB0aGUgZGVzaWduIHRlYW0gYXMgbWFya2Rvd24pIGNhcHR1cmVzIGV2ZXJ5IGZpZWxkIGEgZ3JlYXQgYnJpZWYgbmVlZHM7IHRoZSBBSSBza2lsbCBoZWxwcyBhIHJlcXVlc3RlciB0dXJuIHJvdWdoIG5vdGVzIGludG8gYSBjb21wbGV0ZSwgb24tYnJhbmQgYnJpZWYgYW5kIGV4cG9ydHMgY2xlYW4gSlNPTiB0aGF0IGFueSBkb3duc3RyZWFtIHRvb2wgb3Igd29ya2Zsb3cgY2FuIGNvbnN1bWUuIFRoZSB0ZW1wbGF0ZSBpcyB0aGUgYnJhbmQncyBkZWZpbml0aW9uIG9mICdhIGdvb2QgYnJpZWYsJyBtYWRlIHNlbGYtc2VydmUuCgojIyBVc2VycwoKRGVzaWduICYgYnJhbmQgb3duZXJzICh3aG8gZGVmaW5lIHRoZSBicmllZiBzY2hlbWEgYW5kIHN0YW5kYXJkcykgYW5kIG5vbi1kZXNpZ25lcnMg4oCUIFBNcywgbWFya2V0ZXJzLCBmb3VuZGVycywgc3Rha2Vob2xkZXJzIOKAlCB3aG8gbmVlZCB0byByZXF1ZXN0IHdvcmsgd2l0aG91dCBrbm93aW5nIGhvdyB0byB3cml0ZSBhIGJyaWVmLgoKIyMjIFByaW1hcnkgcGVyc29uYXMKCjEuICoqVGhlIEJyYW5kL0Rlc2lnbiBPd25lcioqIOKAlCBkZWZpbmVzIHRoZSB2b2ljZSwgcnVsZXMsIGFuZCBzdGFuZGFyZHMuIFdhbnRzIGxldmVyYWdlOiB0byBlbmNvZGUgdGhlaXIganVkZ21lbnQgb25jZSBhbmQgaGF2ZSBpdCBhcHBsaWVkIGV2ZXJ5d2hlcmUgd2l0aG91dCBiZWNvbWluZyBhIGJvdHRsZW5lY2suCjIuICoqVGhlIE5vbi1EZXNpZ25lciBQcm9kdWNlcioqIOKAlCBuZWVkcyBvbi1icmFuZCBvdXRwdXQgYnV0IGxhY2tzIGRlc2lnbi9icmFuZCB0cmFpbmluZy4gV2FudHMgc3BlZWQgYW5kIGNvbmZpZGVuY2UgdGhhdCB3aGF0IHRoZXkgc2hpcCB3b24ndCBiZSAib2ZmLiIKCiMjIEdvYWxzCgotICoqRzEg4oCUIE9uLWJyYW5kIGJ5IGRlZmF1bHQuKiogT3V0cHV0IHNob3VsZCBiZSBjb25zaXN0ZW50IHdpdGggdGhlIGJyYW5kIHN5c3RlbSB3aXRob3V0IHRoZSB1c2VyIGhhdmluZyB0byBrbm93IHRoZSBydWxlcy4KLSAqKkcyIOKAlCBTZWxmLXNlcnZlLioqIEEgbm9uLWRlc2lnbmVyIGNvbXBsZXRlcyB0aGUgdGFzayBlbmQtdG8tZW5kIHdpdGhvdXQgZXNjYWxhdGluZyB0byB0aGUgZGVzaWduIHRlYW0uCi0gKipHMyDigJQgT3duZWQgc3lzdGVtLioqIFRoZSBicmFuZCBydWxlcyBsaXZlIGFzIGEgcmVhZGFibGUsIHZlcnNpb25hYmxlIHJlZmVyZW5jZSBmcmFtZXdvcmsgKG1hcmtkb3duKSwgbm90IHRyaWJhbCBrbm93bGVkZ2UuCi0gKipHNCDigJQgWmVybyBiYWNrZW5kLioqIE5vIGFjY291bnRzLCBubyBzZXJ2ZXIsIG5vIGRhdGEgY29sbGVjdGlvbiDigJQgdHJ1c3QgYW5kIGF1ZGl0YWJpbGl0eSBieSBkZXNpZ24uCgojIyBSZXF1aXJlbWVudHMKCiMjIyBGdW5jdGlvbmFsCi0gQWNjZXB0IHRoZSB1c2VyJ3MgaW5wdXQ6IFJvdWdoIHByb2plY3Qgbm90ZXMsIGdvYWxzLCBhdWRpZW5jZSwgY29uc3RyYWludHMsIGRlYWRsaW5lcywgYW5kIGFueSByZWZlcmVuY2UgbGlua3MuCi0gUHJvZHVjZTogQSBjb21wbGV0ZSwgdmFsaWRhdGVkIGJyaWVmIGZvbGxvd2luZyB0aGUgc2NoZW1hIOKAlCByZW5kZXJlZCBmb3IgaHVtYW5zIGFuZCBleHBvcnRlZCBhcyBzdHJ1Y3R1cmVkIEpTT04gZm9yIGRvd25zdHJlYW0gdG9vbHMuCi0gTGV0IHRoZSBicmFuZCBvd25lciBjb25maWd1cmUgdm9pY2UvcnVsZXMgdGhhdCBjb25zdHJhaW4gZXZlcnkgZ2VuZXJhdGlvbi4KLSBTdG9yZSBzZXR0aW5ncyBsb2NhbGx5OyBuZXZlciByZXF1aXJlIGFuIGFjY291bnQuCgojIyMgTm9uLWZ1bmN0aW9uYWwKLSAqKlByaXZhY3k6KiogYWxsIGRhdGEgc3RheXMgb24tZGV2aWNlIGV4Y2VwdCB0aGUgZGlyZWN0LCB1c2VyLWtleWVkIGNhbGwgdG8gQ2xpZW50LXNpZGUgc3RydWN0dXJpbmcgd2l0aCBvcHRpb25hbCBBbnRocm9waWMgQ2xhdWRlIGFzc2lzdCAoYnJpbmcteW91ci1vd24gQVBJIGtleSkuCi0gKipMYXRlbmN5OioqIGEgZnVsbCBnZW5lcmF0aW9uIGNvbXBsZXRlcyBpbiBhIGZldyBzZWNvbmRzLgotICoqQXVkaXRhYmlsaXR5OioqIHRoZSBlbnRpcmUgYmVoYXZpb3IgaXMgb3BlbiBzb3VyY2UgYW5kIGluc3BlY3RhYmxlLgotICoqRXh0ZW5zaWJpbGl0eToqKiB0aGUgcnVsZSBzZXQgaXMgbW9kdWxhciBtYXJrZG93biwgZWRpdGFibGUgd2l0aG91dCB0b3VjaGluZyBjb2RlLgoKIyMgU3VjY2VzcyAmIGFkb3B0aW9uIG1ldHJpY3MKCnwgTWV0cmljIHwgRGVmaW5pdGlvbiB8IFRhcmdldCBzaWduYWwgfAp8LS0tfC0tLXwtLS18CnwgQWN0aXZhdGlvbiB8IFVzZXIgY29tcGxldGVzIG9uZSByZWFsIGdlbmVyYXRpb24gfCBGaXJzdC1zZXNzaW9uIHN1Y2Nlc3MgfAp8IFNlbGYtc2VydmUgcmF0ZSB8IFRhc2tzIGNvbXBsZXRlZCB3aXRob3V0IGRlc2lnbi10ZWFtIHJldmlldyB8IOKGkSBvdmVyIHRpbWUgfAp8IE9uLWJyYW5kIGFjY2VwdGFuY2UgfCBPdXRwdXQgc2hpcHBlZCB3aXRoIG1pbmltYWwgZWRpdHMgfCBMb3cgZWRpdCBkaXN0YW5jZSB8CnwgUmVwZWF0IHVzZSB8IFJldHVybiB3aXRoaW4gNyBkYXlzIHwgSGFiaXR1YWwgdXNlIHwKfCBSdWxlIHJldXNlIHwgQnJhbmQgY29uZmlnIHJldXNlZCBhY3Jvc3MgZ2VuZXJhdGlvbnMgfCBFbmNvZGVkIHZvaWNlIHBheXMgb2ZmIHwKCiMjIE5vbi1nb2FscwoKLSBOb3QgYW4gYXV0b25vbW91cyBhZ2VudCwgYW5kIG5vdCBhbiBldmFscyBoYXJuZXNzLiBUaGlzIGlzIGFuICoqQUkgc2tpbGwqKjogYSBzdHJ1Y3R1cmVkLCBodW1hbi1kaXJlY3RlZCBpbnN0cnVjdGlvbiBzZXQgdGhhdCBwcm9kdWNlcyByZWxpYWJsZSwgb24tYnJhbmQgb3V0cHV0LgotIE5vdCBhIGNvbnRlbnQgZGF0YWJhc2Ugb3IgQ01TLgotIE5vdCBhIHJlcGxhY2VtZW50IGZvciB0aGUgYnJhbmQvZGVzaWduIG93bmVyIOKAlCBhIGZvcmNlIG11bHRpcGxpZXIgZm9yIHRoZW0uCg==
+# PRD — Brief Engine
+
+## Problem
+
+Creative work is only as good as the brief that starts it, and most briefs are a paragraph in a Slack thread. Fields go missing, success metrics are vague, tone is undefined — so designers spend the first day of every project reverse-engineering what was actually wanted. The cost isn't the brief; it's the rework downstream.
+
+## Solution
+
+Brief Engine turns brief-writing into a structured, repeatable system. A modular schema (owned by the design team as markdown) captures every field a great brief needs; the AI skill helps a requester turn rough notes into a complete, on-brand brief and exports clean JSON that any downstream tool or workflow can consume. The template is the brand's definition of 'a good brief,' made self-serve.
+
+## Users
+
+Design & brand owners (who define the brief schema and standards) and non-designers — PMs, marketers, founders, stakeholders — who need to request work without knowing how to write a brief.
+
+### Primary personas
+
+1. **The Brand/Design Owner** — defines the voice, rules, and standards. Wants leverage: to encode their judgment once and have it applied everywhere without becoming a bottleneck.
+2. **The Non-Designer Producer** — needs on-brand output but lacks design/brand training. Wants speed and confidence that what they ship won't be "off."
+
+## Goals
+
+- **G1 — On-brand by default.** Output should be consistent with the brand system without the user having to know the rules.
+- **G2 — Self-serve.** A non-designer completes the task end-to-end without escalating to the design team.
+- **G3 — Owned system.** The brand rules live as a readable, versionable reference framework (markdown), not tribal knowledge.
+- **G4 — Zero backend.** No accounts, no server, no data collection — trust and auditability by design.
+
+## Requirements
+
+### Functional
+- Accept the user's input: Rough project notes, goals, audience, constraints, deadlines, and any reference links.
+- Produce: A complete, validated brief following the schema — rendered for humans and exported as structured JSON for downstream tools.
+- Let the brand owner configure voice/rules that constrain every generation.
+- Store settings locally; never require an account.
+
+### Non-functional
+- **Privacy:** all data stays on-device except the direct, user-keyed call to Client-side structuring with optional Anthropic Claude assist (bring-your-own API key).
+- **Latency:** a full generation completes in a few seconds.
+- **Auditability:** the entire behavior is open source and inspectable.
+- **Extensibility:** the rule set is modular markdown, editable without touching code.
+
+## Success & adoption metrics
+
+| Metric | Definition | Target signal |
+|---|---|---|
+| Activation | User completes one real generation | First-session success |
+| Self-serve rate | Tasks completed without design-team review | ↑ over time |
+| On-brand acceptance | Output shipped with minimal edits | Low edit distance |
+| Repeat use | Return within 7 days | Habitual use |
+| Rule reuse | Brand config reused across generations | Encoded voice pays off |
+
+## Non-goals
+
+- Not an autonomous agent, and not an evals harness. This is an **AI skill**: a structured, human-directed instruction set that produces reliable, on-brand output.
+- Not a content database or CMS.
+- Not a replacement for the brand/design owner — a force multiplier for them.
