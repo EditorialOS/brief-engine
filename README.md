@@ -1,1 +1,72 @@
-IyBCcmllZiBFbmdpbmUKCiFbdmVyc2lvbl0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS92ZXJzaW9uLTEuMC4wLWJsdWUpCiFbc3RhdHVzXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL3N0YXR1cy1wb3J0Zm9saW8tLXJlYWR5LWJyaWdodGdyZWVuKQohW3R5cGVdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvdHlwZS1BSSUyMHNraWxsLThBMkJFMikKIVtkZXNpZ24gdG9vbF0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9kZXNpZ24tYnJhbmQlMjBzeXN0ZW0tZmY2OWI0KQohW3BsYXRmb3JtXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL3BsYXRmb3JtLUNocm9tZSUyME1WMy1vcmFuZ2UpCiFbbGljZW5zZV0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9saWNlbnNlLU1JVC1saWdodGdyZXkpCgo+ICoqVHVybiBzY2F0dGVyZWQgaW5wdXRzIGludG8gYSBzdHJ1Y3R1cmVkLCBvbi1icmFuZCBjcmVhdGl2ZSBicmllZiDigJQgZXZlcnkgdGltZS4qKgoKQnJpZWYgRW5naW5lIHR1cm5zIGJyaWVmLXdyaXRpbmcgaW50byBhIHN0cnVjdHVyZWQsIHJlcGVhdGFibGUgc3lzdGVtLiBBIG1vZHVsYXIgc2NoZW1hIChvd25lZCBieSB0aGUgZGVzaWduIHRlYW0gYXMgbWFya2Rvd24pIGNhcHR1cmVzIGV2ZXJ5IGZpZWxkIGEgZ3JlYXQgYnJpZWYgbmVlZHM7IHRoZSBBSSBza2lsbCBoZWxwcyBhIHJlcXVlc3RlciB0dXJuIHJvdWdoIG5vdGVzIGludG8gYSBjb21wbGV0ZSwgb24tYnJhbmQgYnJpZWYgYW5kIGV4cG9ydHMgY2xlYW4gSlNPTiB0aGF0IGFueSBkb3duc3RyZWFtIHRvb2wgb3Igd29ya2Zsb3cgY2FuIGNvbnN1bWUuIFRoZSB0ZW1wbGF0ZSBpcyB0aGUgYnJhbmQncyBkZWZpbml0aW9uIG9mICdhIGdvb2QgYnJpZWYsJyBtYWRlIHNlbGYtc2VydmUuCgoqKlRoZSBkZXNpZ24vYnJhbmQgcHJvYmxlbSBpdCBzb2x2ZXM6KiogQ3JlYXRpdmUgd29yayBpcyBvbmx5IGFzIGdvb2QgYXMgdGhlIGJyaWVmIHRoYXQgc3RhcnRzIGl0LCBhbmQgbW9zdCBicmllZnMgYXJlIGEgcGFyYWdyYXBoIGluIGEgU2xhY2sgdGhyZWFkLiBGaWVsZHMgZ28gbWlzc2luZywgc3VjY2VzcyBtZXRyaWNzIGFyZSB2YWd1ZSwgdG9uZSBpcyB1bmRlZmluZWQg4oCUIHNvIGRlc2lnbmVycyBzcGVuZCB0aGUgZmlyc3QgZGF5IG9mIGV2ZXJ5IHByb2plY3QgcmV2ZXJzZS1lbmdpbmVlcmluZyB3aGF0IHdhcyBhY3R1YWxseSB3YW50ZWQuIFRoZSBjb3N0IGlzbid0IHRoZSBicmllZjsgaXQncyB0aGUgcmV3b3JrIGRvd25zdHJlYW0uCgotLS0KCiMjIDMwLXNlY29uZCB0b3VyCgpJZiB5b3Ugb25seSBoYXZlIGhhbGYgYSBtaW51dGUsIGxvb2sgaGVyZToKCi0gKipbYGFpLXNraWxscy9icmllZi1zdHJ1Y3R1cmluZy1za2lsbC5tZGBdKGFpLXNraWxscy9icmllZi1zdHJ1Y3R1cmluZy1za2lsbC5tZCkqKiDigJQgdGhlIEFJIHNraWxsIGl0c2VsZjogYSBzdHJ1Y3R1cmVkLCBtYXJrZG93biBpbnN0cnVjdGlvbiBzZXQgdGhhdCB0dXJucyBicmFuZCBydWxlcyBpbnRvIHJlbGlhYmx5IG9uLWJyYW5kIG91dHB1dC4gKlRoaXMgaXMgdGhlIGhlYXJ0IG9mIHRoZSBwcm9qZWN0LioKLSAqKltgZG9jcy9kZXNpZ24tc3lzdGVtLm1kYF0oZG9jcy9kZXNpZ24tc3lzdGVtLm1kKSoqIOKAlCB0aGUgYnJhbmQgc3lzdGVtIGFzIHNvdXJjZSBvZiB0cnV0aDogdm9pY2UsIHRvbmUsIHR5cGUvY29sb3IvbGF5b3V0IGFuZCBjb250ZW50IHJ1bGVzIHRoZSB0b29sIGVuZm9yY2VzLgotICoqW2Bkb2NzL1BSRC5tZGBdKGRvY3MvUFJELm1kKSoqIOKAlCB0aGUgcHJvZHVjdCB0aGlua2luZzogcHJvYmxlbSwgdXNlcnMsIGdvYWxzLCBhbmQgYWRvcHRpb24gbWV0cmljcy4KLSAqKltgZG9jcy9hcmNoaXRlY3R1cmUubWRgXShkb2NzL2FyY2hpdGVjdHVyZS5tZCkqKiDigJQgaG93IGl0IHdvcmtzOiBVSSBzdXJmYWNlLCB0aGUgQUkvbW9kZWwgbGF5ZXIsIGFuZCB0aGUgcHJvbXB0IGxheWVyIHRoYXQgYmluZHMgdGhlbS4KLSAqKltgZXh0ZW5zaW9uL2BdKGV4dGVuc2lvbi8pICsgZGVtbyoqIOKAlCB0aGUgd29ya2luZyBDaHJvbWUgZXh0ZW5zaW9uIChNYW5pZmVzdCBWMykgd2l0aCBhIHBvcHVwIFVJLCBmdWxseSBjbGllbnQtc2lkZS4gKihEZW1vIEdJRjogc2VlIGBkb2NzL2RlbW8uZ2lmYCBvbmNlIGFkZGVkLikqCgotLS0KCiMjIFdobyBpdCdzIGZvcgoKRGVzaWduICYgYnJhbmQgb3duZXJzICh3aG8gZGVmaW5lIHRoZSBicmllZiBzY2hlbWEgYW5kIHN0YW5kYXJkcykgYW5kIG5vbi1kZXNpZ25lcnMg4oCUIFBNcywgbWFya2V0ZXJzLCBmb3VuZGVycywgc3Rha2Vob2xkZXJzIOKAlCB3aG8gbmVlZCB0byByZXF1ZXN0IHdvcmsgd2l0aG91dCBrbm93aW5nIGhvdyB0byB3cml0ZSBhIGJyaWVmLgoKIyMgSG93IGl0IHdvcmtzIChpbiBvbmUgcGFyYWdyYXBoKQoKQnJpZWYgRW5naW5lIGlzIGEgQ2hyb21lIGV4dGVuc2lvbiAoTWFuaWZlc3QgVjMpIHdpdGggYSBwb3B1cCBVSSwgZnVsbHkgY2xpZW50LXNpZGUuIFRoZSBicmFuZCBvd25lciBkZWZpbmVzIHRoZSB2b2ljZSBhbmQgcnVsZXMgKipvbmNlKiogYXMgYSBtYXJrZG93biByZWZlcmVuY2UgZnJhbWV3b3JrIChzZWUgW2Bkb2NzL2Rlc2lnbi1zeXN0ZW0ubWRgXShkb2NzL2Rlc2lnbi1zeXN0ZW0ubWQpIGFuZCBbYGFpLXNraWxscy9icmllZi1zdHJ1Y3R1cmluZy1za2lsbC5tZGBdKGFpLXNraWxscy9icmllZi1zdHJ1Y3R1cmluZy1za2lsbC5tZCkpLiBBdCBydW50aW1lLCB0aGUgdG9vbCBjb21wb3NlcyB0aG9zZSBydWxlcyB3aXRoIHRoZSB1c2VyJ3MgaW5wdXQgaW50byBhIHN0cnVjdHVyZWQgcHJvbXB0IGFuZCBzZW5kcyBpdCB0byBDbGllbnQtc2lkZSBzdHJ1Y3R1cmluZyB3aXRoIG9wdGlvbmFsIEFudGhyb3BpYyBDbGF1ZGUgYXNzaXN0IChicmluZy15b3VyLW93biBBUEkga2V5KS4gVGhlIHJlc3VsdCBpcyBvbi1icmFuZCBvdXRwdXQgdGhhdCBhIG5vbi1kZXNpZ25lciBjYW4gcHJvZHVjZSB3aXRob3V0IGV2ZXIgc2VlaW5nIHRoZSB1bmRlcmx5aW5nIHN5c3RlbS4KCi0gKipJbnB1dDoqKiBSb3VnaCBwcm9qZWN0IG5vdGVzLCBnb2FscywgYXVkaWVuY2UsIGNvbnN0cmFpbnRzLCBkZWFkbGluZXMsIGFuZCBhbnkgcmVmZXJlbmNlIGxpbmtzLgotICoqT3V0cHV0OioqIEEgY29tcGxldGUsIHZhbGlkYXRlZCBicmllZiBmb2xsb3dpbmcgdGhlIHNjaGVtYSDigJQgcmVuZGVyZWQgZm9yIGh1bWFucyBhbmQgZXhwb3J0ZWQgYXMgc3RydWN0dXJlZCBKU09OIGZvciBkb3duc3RyZWFtIHRvb2xzLgoKIyMgSW5zdGFsbCAmIHVzZQoKMS4gQ2xvbmUgdGhpcyByZXBvLgoyLiBJbiBDaHJvbWUsIG9wZW4gYGNocm9tZTovL2V4dGVuc2lvbnNgLCBlbmFibGUgKipEZXZlbG9wZXIgbW9kZSoqLCBhbmQgY2xpY2sgKipMb2FkIHVucGFja2VkKiouCjMuIFNlbGVjdCB0aGUgW2BleHRlbnNpb24vYF0oZXh0ZW5zaW9uLykgZm9sZGVyLgo0LiBPcGVuIHRoZSBleHRlbnNpb24sIGFkZCB5b3VyIEFudGhyb3BpYyBBUEkga2V5IChzdG9yZWQgbG9jYWxseSwgbmV2ZXIgc2VudCB0byBhbnkgc2VydmVyIGJ1dCBBbnRocm9waWMpLCBhbmQgZ28uCgo+IE5vIGFjY291bnRzLiBObyBiYWNrZW5kLiBObyBhbmFseXRpY3MuIFNlZSBbUFJJVkFDWS5tZF0oUFJJVkFDWS5tZCkuCgojIyBIb3cgaXQgc3RheXMgb24tYnJhbmQKCk9uLWJyYW5kIG91dHB1dCBpcyBub3QgbHVjayDigJQgaXQncyBhIGRlc2lnbmVkIHN5c3RlbToKCjEuICoqVGhlIGJyYW5kIHZvaWNlIGlzIGVuY29kZWQsIG5vdCByZW1lbWJlcmVkLioqIFRvbmUsIHZvY2FidWxhcnksIGFuZCBydWxlcyBsaXZlIGluIFtgZG9jcy9kZXNpZ24tc3lzdGVtLm1kYF0oZG9jcy9kZXNpZ24tc3lzdGVtLm1kKSBhcyB0aGUgc2luZ2xlIHNvdXJjZSBvZiB0cnV0aC4KMi4gKipUaGUgQUkgc2tpbGwgZW5mb3JjZXMgaXQuKiogW2BhaS1za2lsbHMvYnJpZWYtc3RydWN0dXJpbmctc2tpbGwubWRgXShhaS1za2lsbHMvYnJpZWYtc3RydWN0dXJpbmctc2tpbGwubWQpIGlzIGEgc3RydWN0dXJlZCBpbnN0cnVjdGlvbiBzZXQgd2l0aCBleHBsaWNpdCBjb25zdHJhaW50cywgZXhhbXBsZXMsIGFuZCBndWFyZHJhaWxzIOKAlCB0aGUgc2FtZSBkaXNjaXBsaW5lIHlvdSdkIGFwcGx5IHRvIGEgY29tcG9uZW50IGxpYnJhcnksIGFwcGxpZWQgdG8gbGFuZ3VhZ2UuCjMuICoqQWRhcHRhdGlvbiBpcyBib3VuZGVkLioqIFRoZSB0b29sIG9ubHkgZmxleGVzIHdoYXQgc2hvdWxkIGZsZXggKHBocmFzaW5nIGFuZCBjb21wbGV0ZW5lc3MpOyBldmVyeXRoaW5nIHRoZSBicmFuZCBtdXN0IHByb3RlY3Qgc3RheXMgZml4ZWQuCjQuICoqQW55b25lIGNhbiBzZWxmLXNlcnZlLioqIE5vbi1kZXNpZ25lcnMgcHJvZHVjZSBvbi1icmFuZCB3b3JrIGJlY2F1c2UgdGhlIGRlc2lnbiBzeXN0ZW0gaXMgZG9pbmcgdGhlIHdvcmsgZm9yIHRoZW0g4oCUIGludmlzaWJseS4KCi0tLQoKIyMgV2h5IHRoaXMgZXhpc3RzIChwb3J0Zm9saW8gbm90ZSkKClRoaXMgcmVwbyBpcyBwYXJ0IG9mIGEgc21hbGwgc3VpdGUgb2YgdG9vbHMgZXhwbG9yaW5nIG9uZSBpZGVhOiAqKnRoZSBiZXN0IGRlc2lnbiBzeXN0ZW1zIGFyZSBpbmNyZWFzaW5nbHkgaW52aXNpYmxlIOKAlCBBSSBza2lsbHMsIGJyYW5kLWVuY29kZWQgdG9vbHMsIGFuZCBtYXJrZG93biByZWZlcmVuY2UgZnJhbWV3b3JrcyB0aGF0IGxldCBhbnlvbmUgcHJvZHVjZSBvbi1icmFuZCB3b3JrLioqIFNob3dzIGEgbWFya2Rvd24gcmVmZXJlbmNlIGZyYW1ld29yayBvcGVyYXRpbmcgYXMgdGhlIHNpbmdsZSBzb3VyY2Ugb2YgdHJ1dGg6IHRoZSBicmllZiBzY2hlbWEgaXMgdGhlIGRlc2lnbiBzdGFuZGFyZCwgYW5kIHRoZSBBSSBza2lsbCBtYWtlcyBub24tZGVzaWduZXJzIHByb2R1Y2UgdG8gdGhhdCBzdGFuZGFyZCBhdXRvbWF0aWNhbGx5LgoKKipSZWxhdGVkIHRvb2xzIGluIHRoZSBzdWl0ZToqKgotIFtNZXNzYWdlIFZhcmlhbnQgRW5naW5lXShodHRwczovL2dpdGh1Yi5jb20vRWRpdG9yaWFsT1MvbWVzc2FnZS12YXJpYW50LWVuZ2luZSkg4oCUIG9uZSBtZXNzYWdlLCBldmVyeSBhdWRpZW5jZSwgb24tYnJhbmQuCi0gW0JyaWVmIEVuZ2luZV0oaHR0cHM6Ly9naXRodWIuY29tL0VkaXRvcmlhbE9TL2JyaWVmLWVuZ2luZSkg4oCUIHNjYXR0ZXJlZCBpbnB1dHMg4oaSIHN0cnVjdHVyZWQsIG9uLWJyYW5kIGJyaWVmLgotIFtTb2NpYWwgQ29weSBNdWx0aXBsaWVyXShodHRwczovL2dpdGh1Yi5jb20vRWRpdG9yaWFsT1Mvc29jaWFsLWNvcHktbXVsdGlwbGllcikg4oCUIG9uZSBtZXNzYWdlLCBwbGF0Zm9ybS1wZXJmZWN0IGV2ZXJ5d2hlcmUuCgojIyBMaWNlbnNlCgpNSVQg4oCUIHNlZSBbTElDRU5TRV0oTElDRU5TRSkuCg==
+# Brief Engine
+
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+![status](https://img.shields.io/badge/status-portfolio--ready-brightgreen)
+![type](https://img.shields.io/badge/type-AI%20skill-8A2BE2)
+![design tool](https://img.shields.io/badge/design-brand%20system-ff69b4)
+![platform](https://img.shields.io/badge/platform-Chrome%20MV3-orange)
+![license](https://img.shields.io/badge/license-MIT-lightgrey)
+
+> **Turn scattered inputs into a structured, on-brand creative brief — every time.**
+
+Brief Engine turns brief-writing into a structured, repeatable system. A modular schema (owned by the design team as markdown) captures every field a great brief needs; the AI skill helps a requester turn rough notes into a complete, on-brand brief and exports clean JSON that any downstream tool or workflow can consume. The template is the brand's definition of 'a good brief,' made self-serve.
+
+**The design/brand problem it solves:** Creative work is only as good as the brief that starts it, and most briefs are a paragraph in a Slack thread. Fields go missing, success metrics are vague, tone is undefined — so designers spend the first day of every project reverse-engineering what was actually wanted. The cost isn't the brief; it's the rework downstream.
+
+---
+
+## 30-second tour
+
+If you only have half a minute, look here:
+
+- **[`ai-skills/brief-structuring-skill.md`](ai-skills/brief-structuring-skill.md)** — the AI skill itself: a structured, markdown instruction set that turns brand rules into reliably on-brand output. *This is the heart of the project.*
+- **[`docs/design-system.md`](docs/design-system.md)** — the brand system as source of truth: voice, tone, type/color/layout and content rules the tool enforces.
+- **[`docs/PRD.md`](docs/PRD.md)** — the product thinking: problem, users, goals, and adoption metrics.
+- **[`docs/architecture.md`](docs/architecture.md)** — how it works: UI surface, the AI/model layer, and the prompt layer that binds them.
+- **[`extension/`](extension/) + demo** — the working Chrome extension (Manifest V3) with a popup UI, fully client-side. *(Demo GIF: see `docs/demo.gif` once added.)*
+
+---
+
+## Who it's for
+
+Design & brand owners (who define the brief schema and standards) and non-designers — PMs, marketers, founders, stakeholders — who need to request work without knowing how to write a brief.
+
+## How it works (in one paragraph)
+
+Brief Engine is a Chrome extension (Manifest V3) with a popup UI, fully client-side. The brand owner defines the voice and rules **once** as a markdown reference framework (see [`docs/design-system.md`](docs/design-system.md) and [`ai-skills/brief-structuring-skill.md`](ai-skills/brief-structuring-skill.md)). At runtime, the tool composes those rules with the user's input into a structured prompt and sends it to Client-side structuring with optional Anthropic Claude assist (bring-your-own API key). The result is on-brand output that a non-designer can produce without ever seeing the underlying system.
+
+- **Input:** Rough project notes, goals, audience, constraints, deadlines, and any reference links.
+- **Output:** A complete, validated brief following the schema — rendered for humans and exported as structured JSON for downstream tools.
+
+## Install & use
+
+1. Clone this repo.
+2. In Chrome, open `chrome://extensions`, enable **Developer mode**, and click **Load unpacked**.
+3. Select the [`extension/`](extension/) folder.
+4. Open the extension, add your Anthropic API key (stored locally, never sent to any server but Anthropic), and go.
+
+> No accounts. No backend. No analytics. See [PRIVACY.md](PRIVACY.md).
+
+## How it stays on-brand
+
+On-brand output is not luck — it's a designed system:
+
+1. **The brand voice is encoded, not remembered.** Tone, vocabulary, and rules live in [`docs/design-system.md`](docs/design-system.md) as the single source of truth.
+2. **The AI skill enforces it.** [`ai-skills/brief-structuring-skill.md`](ai-skills/brief-structuring-skill.md) is a structured instruction set with explicit constraints, examples, and guardrails — the same discipline you'd apply to a component library, applied to language.
+3. **Adaptation is bounded.** The tool only flexes what should flex (phrasing and completeness); everything the brand must protect stays fixed.
+4. **Anyone can self-serve.** Non-designers produce on-brand work because the design system is doing the work for them — invisibly.
+
+---
+
+## Why this exists (portfolio note)
+
+This repo is part of a small suite of tools exploring one idea: **the best design systems are increasingly invisible — AI skills, brand-encoded tools, and markdown reference frameworks that let anyone produce on-brand work.** Shows a markdown reference framework operating as the single source of truth: the brief schema is the design standard, and the AI skill makes non-designers produce to that standard automatically.
+
+**Related tools in the suite:**
+- [Message Variant Engine](https://github.com/EditorialOS/message-variant-engine) — one message, every audience, on-brand.
+- [Brief Engine](https://github.com/EditorialOS/brief-engine) — scattered inputs → structured, on-brand brief.
+- [Social Copy Multiplier](https://github.com/EditorialOS/social-copy-multiplier) — one message, platform-perfect everywhere.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
